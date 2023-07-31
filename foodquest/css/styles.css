@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@200&family=Roboto:wght@100;300;400&family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Work+Sans:wght@100;300&display=swap'); 
+body{
+
+  width: 1000px;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-left: 400px;
+  gap: 250px;
+  position: sticky;
+  height: 100px;
+  
+  margin-top: 50px;
+
+  
+  }
+
+  .navbar-links{
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+    justify-content: center;
+    gap: 10px;
+    padding-top: 40px;
+  }
+  navbar-logo{
+
+    
+    padding-left: 1000px;
+    width:250px;
+    height: 100px;
+    
+    
+  }
+
+  .navbar-links li {
+    margin-right: 15px;
+  }
+  
+  .navbar-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar-links li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    font-family: "Poppins" ;
+    font-size: 15px;
+    font-weight: 800;
+  }
+  
+  .navbar-links li a:hover {
+    background-color:   #ed6e0d;
+
+  }
+
+  .welcome{
+
+    margin-top: 60px;
+
+    background-image: url(pasta.png);
+    width: 1400px;
+    height: 792px;
+    
+  }
+
+  .slogan{
+
+   padding-top: 120px;
+    padding-left: 30px;
+    font-size: 150px;
+    color: #ffffff;
+
+  }
+.description{
+
+  margin-top: 50px;
+  margin-left: 115px;
+  FONT-WEIGHT: 200;
+  height: 250px;
+  width: 1200px;
+  background-color: #d18249;
+  padding-top: 100px;
+  border-radius: 20px;
+   
+
+
+}
+  .text{
+
+    font-size: 35px;
+    color: #333;
+   
+    /* margin-bottom: 0.75em; */
+    font-family:sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-left: 270px;
+    padding-top: 30px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+
+  }
+  .text2{
+    font-size: 35px;
+    color: #333;
+    /* margin-bottom: 0.75em; */
+    font-family: sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-left: 330px;
+
+
+
+  }
+   
+  .bouttonblue a {
+    text-decoration: none; 
+    
+    font-size: 30px;
+    color: rgb(231, 134, 30);
+    /* margin-bottom: 0.75em; */
+    font-family: "Poppins";
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    
+    justify-content: center;
+  }
+
+
+  .bouttonblue {
+    
+    background-color: #333;
+   
+    color: rgb(231, 134, 30);
+
+
+    font-family: Roboto, Arial, sans-serif;
+    border-radius: 7px;
+    text-align: center;
+    border: #fff;
+    
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    font-size: 25px;
+    width: 250px;
+    height: 50px;
+    margin-left: 450px;
+    margin-top: 40px;
+    
+  
+  }
+
+  .logoapp{
+
+    
+    
+    margin-top: 70px;
+    padding-left: 540px;
+  }
+
+  .app{
+
+    margin-left: 550px;
+    font-size: 30px;
+    font-family: "Poppins";
+    margin-top: 25px;
+}
+  
+
+  .playstore{
+
+    
+    margin-left: 542px;
+    margin-top: 30px;
+
+
+
+  }
